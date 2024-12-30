@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu di Capodanno 2025</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f9f7f4;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            animation: fadeIn 1.5s ease-in;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 2.5em;
+        }
+        .welcome-message {
+            color: #34495e;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        .content-container {
+            position: relative;
+            max-width: 800px;
+            width: 100%;
+            margin-bottom: 40px;
+        }
+        .menu-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .menu-image {
+            width: 800px;
+            height: 1000px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .menu-image:hover {
+            transform: scale(1.02);
+        }
+        .vignette-container {
+            position: absolute;
+            top: -30px;
+            right: -30px;
+            width: 150px;
+            height: 150px;
+            border-radius: 75px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            border: 4px solid white;
+            z-index: 2;
+            background-color: white;
+            transition: transform 0.3s ease;
+        }
+        .vignette-container:hover {
+            transform: rotate(5deg) scale(1.1);
+        }
+        .vignette-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .vignette-title {
+            position: absolute;
+            bottom: -40px;
+            right: 0;
+            background-color: #e74c3c;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            white-space: nowrap;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .participants-section {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            max-width: 600px;
+            width: 100%;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .participants-title {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+        .participants-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .participant {
+            background-color: #f8f9fa;
+            padding: 10px 20px;
+            border-radius: 25px;
+            color: #2c3e50;
+            font-size: 1.1em;
+        }
+        .festive-decoration {
+            font-size: 1.5em;
+            margin: 20px 0;
+            color: #e74c3c;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            .welcome-message {
+                font-size: 1.1em;
+            }
+            .vignette-container {
+                width: 100px;
+                height: 100px;
+                top: -20px;
+                right: -20px;
+            }
+            .vignette-title {
+                font-size: 0.8em;
+                padding: 4px 12px;
+                bottom: -35px;
+            }
+            .participants-section {
+                padding: 20px;
+            }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Menu di Capodanno 2025</h1>
+        <div class="welcome-message">
+            Ciao amici! 🎉<br>
+            Benvenuti alla nostra cena speciale per festeggiare insieme l'arrivo del nuovo anno!
+        </div>
+        <div class="festive-decoration">✨ 🎊 ✨</div>
+    </div>
+
+    <div class="content-container">
+        <div class="menu-container">
+            <img class="menu-image" src="menu.jpg" alt="Menu di Capodanno">
+        </div>
+
+        <div class="vignette-container">
+            <img class="vignette-image" src="alessia.jpg" alt="Alessia che prepara il cenone">
+            <div class="vignette-title">👩‍🍳 Alessia al lavoro!</div>
+        </div>
+    </div>
+
+    <div class="participants-section">
+        <div class="participants-title">I Nostri Ospiti Speciali</div>
+        <div class="participants-list">
+            <div class="participant">👤 Felice</div>
+            <div class="participant">👤 Stefania</div>
+            <div class="participant">👤 Alessia</div>
+            <div class="participant">👤 Lorenzo</div>
+            <div class="participant">👤 Mauro</div>
+            <div class="participant">👤 Silvana</div>
+            <div class="participant">👤 Beniamino</div>
+            <div class="participant">👤 Michela</div>
+        </div>
+    </div>
+</body>
+</html>
